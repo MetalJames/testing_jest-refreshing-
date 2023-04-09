@@ -1,6 +1,4 @@
-type GreedProps = {
-    name?: string
-}
+import { GreedProps } from "./greed.types";
 
 const Greed = (props: GreedProps) => {
 
@@ -9,7 +7,7 @@ const Greed = (props: GreedProps) => {
     return (
         <>
             <div>Greed</div>
-            <div>Hello {name}</div>
+            <div>Hello {name ? name : 'Guest'}</div>
         </>
     )
 }
