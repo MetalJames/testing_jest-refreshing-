@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Greed from "./components/Greed/Greed";
+import Greed from "./Greed";
 
 test('greed renders correctly, first test', () => {
     render(<Greed />)
